@@ -126,6 +126,7 @@ def timerCallback(event):
 	
 	pass # Delete this 'pass' once implemented
 
+#stops all movement
 def stop():
 	sendTwist(0,0)
 
